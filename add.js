@@ -15,6 +15,8 @@ formEl.addEventListener("submit", e=> {
     const jami2 = inputEl2.value;
     topla.push(jami1);
     topla2.push(jami2);
+    inputEl1.innerHTML = "";
+    inputEl2.innerHTML = "";
     chiqaradi();
     chiqaradi2();
 });
